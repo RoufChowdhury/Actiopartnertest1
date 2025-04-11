@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Risk Management Consultants for Actio Software</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script>
+        function setTheme() {
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark');
+            } else {
+                document.documentElement.classList.remove('dark');
+            }
+        }
+
+        function toggleTheme() {
+            if (localStorage.theme === 'dark') {
+                localStorage.theme = 'light';
+            } else {
+                localStorage.theme = 'dark';
+            }
+            setTheme();
+        }
+
+        document.addEventListener('DOMContentLoaded', setTheme);
+    </script>
+    <style>
+        .fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .consultant-card {
+            transition: all 0.3s ease;
+        }
+        .consultant-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .btn-primary {
+            transition: all 0.2s ease;
+        }
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-200">
+    <header class="bg-white dark:bg-gray-800 shadow-sm">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-shield-alt text-blue-600 dark:text-blue-400 text-2xl"></i>
+                <h1 class="text-xl font-bold">Enterprise Risk Management Partners</h1>
+            </div>
+            <button onclick="toggleTheme()" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+                <i class="fas fa-moon dark:hidden"></i>
+                <i class="fas fa-sun hidden dark:block"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12 fade-in">
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-6 mb-8">
+                <div class="flex items-start">
+                    <div>
+                        <h2 class="text-2xl font-bold mb-4">Finding the Perfect ERM Consultants for Actio Software</h2>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">
+                            Actio Software specializes in enterprise risk management solutions. To strengthen our position in the market, 
+                            we're looking to partner with top ERM consultants who can provide expertise and expand our business reach.
+                        </p>
+                        <div class="flex space-x-4 mt-6">
+                            <a href="https://actiosoftware.com/en/" target="_blank" class="btn-primary flex items-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md">
+                                <i class="fas fa-external-link-alt mr-2"></i>
+                                Visit Actio Software
+                            </a>
+                            <a href="https://app.gocatalant.com/c/_/u/0/search/expert/?form_name=SearchForm&section=3&search_query=enterprise%20risk%20management" target="_blank" class="btn-primary flex items-center bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-gray-200 px-4 py-2 rounded-md">
+                                <i class="fas fa-search mr-2"></i>
+                                View Consultant Platform
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hidden md:block ml-6">
+                        <i class="fas fa-handshake text-blue-500 dark:text-blue-400 text-8xl opacity-80"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 fade-in" style="animation-delay: 0.2s;">
+            <h2 class="text-2xl font-bold mb-6 flex items-center">
+                <i class="fas fa-star text-yellow-500 mr-2"></i>
+                Top ERM Consultant Profiles
+            </h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Consultant 1 -->
+                <div class="consultant-card bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+                    <div class="bg-blue-600 dark:bg-blue-800 text-white p-4">
+                        <h3 class="text-xl font-bold">Vlado L.</h3>
+                        <p class="text-blue-100">Managing Director & Risk Strategy Expert</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="mb-4">
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Corporate Strategy</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Risk Management</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Financial Services</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Consultant with 20-year experience specializing in corporate strategy, finance, and risk management across financial services, technology, and payments industries.</p>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-briefcase text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">20+ years experience</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Managing Director at Pinerock</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Former Director at American Express</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Former Chief Risk Officer at UBB, KBC Group</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-globe text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">New York, NY</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-star text-yellow-400 w-5"></i>
+                                <span class="ml-2">4.73/5.0 (9 Reviews)</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-link text-gray-500 dark:text-gray-400 w-5"></i>
+                                <a href="https://www.pinerockdata.com/" target="_blank" class="ml-2 text-blue-600 dark:text-blue-400 hover:underline">pinerockdata.com</a>
+                            </div>
+                        </div>
+                        <a href="#" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition duration-300">View Full Profile</a>
+                    </div>
+                </div>
+
+                <!-- Consultant 2 -->
+                <div class="consultant-card bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+                    <div class="bg-blue-600 dark:bg-blue-800 text-white p-4">
+                        <h3 class="text-xl font-bold">Samir T.</h3>
+                        <p class="text-blue-100">Physician & Strategic Healthcare Consultant</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="mb-4">
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Strategic Planning</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Healthcare IT</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Market Research</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Experienced physician with background in strategic planning, health IT, global health and market research. Former BCG consultant and Cleveland Clinic researcher.</p>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Anesthesiologist at UPenn Health System</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Former Director at Cooper University Health Care</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Former Consultant at BCG</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Research Fellow at Cleveland Clinic</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-globe text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Philadelphia, PA</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-star text-yellow-400 w-5"></i>
+                                <span class="ml-2">4.40/5.0 (1 Review)</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-tasks text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Healthcare Strategy & Operations Expert</span>
+                            </div>
+                        </div>
+                        <a href="#" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition duration-300">View Full Profile</a>
+                    </div>
+                </div>
+
+                <!-- Consultant 3 -->
+                <div class="consultant-card bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+                    <div class="bg-blue-600 dark:bg-blue-800 text-white p-4">
+                        <h3 class="text-xl font-bold">Adriana S.</h3>
+                        <p class="text-blue-100">Risk Management & Financial Analysis Expert</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="mb-4">
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Risk Management</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Financial Analysis</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Microfinance</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Agriculture</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">12+ years of experience in banking and risk management, specializing in credit analysis and microfinance. Expert in assessing and approving credit facilities for institutional, agricultural, and real estate portfolios.</p>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Risk Manager at CRAC los Andes</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Former Portfolio Risk Leader at Interbank Perú</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Senior Credit Analyst at Scotiabank Peru</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-graduation-cap text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">M.S. from University of Göttingen</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-globe text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Lima, Callao</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-chart-line text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Performance indicators over 130% in previous roles</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-users text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Led team of 40+ professionals</span>
+                            </div>
+                        </div>
+                        <a href="#" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition duration-300">View Full Profile</a>
+                    </div>
+                </div>
+
+                <!-- Consultant 4 -->
+                <div class="consultant-card bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+                    <div class="bg-blue-600 dark:bg-blue-800 text-white p-4">
+                        <h3 class="text-xl font-bold">Timothy M.</h3>
+                        <p class="text-blue-100">Strategic Leader in Global Compliance, Risk Management and Crypto</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="mb-4">
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Risk Management</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Compliance</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Cryptocurrency</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Fintech</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Over 6 years of immersive experience in Financial Services, Fintech, and Digital Asset/Crypto domains. Specializes in risk management, compliance frameworks, and innovative financial technologies.</p>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Enterprise Risk Manager at Chipper Cash</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Former Senior Consultant at RDX Works Ltd</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Risk & Compliance Lead at YellowCard</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-globe text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">San Francisco, CA</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-chart-line text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Reduced risk exposure by 20%</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-shield-alt text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">AML/KYC compliance improvement by 90%</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-project-diagram text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Blockchain & Crypto Innovation Expert</span>
+                            </div>
+                        </div>
+                        <a href="#" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition duration-300">View Full Profile</a>
+                    </div>
+                </div>
+
+                <!-- Consultant 5 -->
+                <div class="consultant-card bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+                    <div class="bg-blue-600 dark:bg-blue-800 text-white p-4">
+                        <h3 class="text-xl font-bold">Aisha Patel</h3>
+                        <p class="text-blue-100">Operational Risk Consultant</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="mb-4">
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Operational Risk</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Business Continuity</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Process Optimization</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">Specializes in identifying operational vulnerabilities and transforming them into robust risk-aware processes that support business objectives.</p>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-briefcase text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">10 years experience</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Former EY Senior Manager</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-globe text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Dubai, UAE</span>
+                            </div>
+                        </div>
+                        <a href="#" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition duration-300">View Full Profile</a>
+                    </div>
+                </div>
+
+                <!-- Consultant 6 -->
+                <div class="consultant-card bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+                    <div class="bg-blue-600 dark:bg-blue-800 text-white p-4">
+                        <h3 class="text-xl font-bold">Taro C.</h3>
+                        <p class="text-blue-100">Senior Project Consultant</p>
+                    </div>
+                    <div class="p-5">
+                        <div class="mb-4">
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Project Management</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Digital Transformation</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Change Management</span>
+                            <span class="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full mr-2 mb-2">Risk Management</span>
+                        </div>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">10+ years experience in project consulting and management, leading large and medium-scale projects in commerce retail, and mining. Expert in digital transformation, change management, and risk management.</p>
+                        <div class="mb-4">
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Senior Project Manager at Knit Agency</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Digital Transformation Consultant at Coracie Media</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-building text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Technical Project Manager at Terracon</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-globe text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Edmonton, AB</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-users text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Led teams of 20+ members</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-chart-line text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Increased revenue by $185K through digital transformation</span>
+                            </div>
+                            <div class="flex items-center mb-2">
+                                <i class="fas fa-tasks text-gray-500 dark:text-gray-400 w-5"></i>
+                                <span class="ml-2">Managed 8+ concurrent projects</span>
+                            </div>
+                        </div>
+                        <a href="#" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md transition duration-300">View Full Profile</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12 fade-in" style="animation-delay: 0.4s;">
+            <div class="bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg shadow-lg p-8 text-white">
+                <h2 class="text-2xl font-bold mb-4">Ready to Partner with Top ERM Specialists?</h2>
+                <p class="mb-6">These carefully selected consultants offer the expertise Actio Software needs to expand its enterprise risk management capabilities and market reach.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#" class="btn-primary bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-md font-bold flex items-center justify-center">
+                        <i class="fas fa-envelope mr-2"></i>
+                        Contact Selected Consultants
+                    </a>
+                    <a href="#" class="btn-primary bg-transparent border-2 border-white hover:bg-white hover:bg-opacity-10 px-6 py-3 rounded-md font-bold flex items-center justify-center">
+                        <i class="fas fa-user-plus mr-2"></i>
+                        Request More Profiles
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white dark:bg-gray-800 py-8 border-t border-gray-200 dark:border-gray-700">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-sm text-gray-600 dark:text-gray-400">© 2023 Actio Software. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400">
+                        <i class="fas fa-envelope text-xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Animation for cards
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.fade-in');
+            cards.forEach((card, index) => {
+                card.style.animationDelay = `${0.1 * index}s`;
+            });
+        });
+    </script>
+</body>
+</html>
